@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk" />
+name</head>
+<body>
+<div >
+	<p align="center">会员登录名和密码</p>
+	<form name="form1" enctype="post" >
+		<table border="1" bgcolor="#D925B7" cellpadding="5" rules="all" align="center">
+			<tr align="right">
+				<th width="130px">用户名：</th>
+				<td><input type="text" name="username" ></td>
+			</tr>
+			<tr align="right">
+				<td>密码：</th>
+				<td><input type="password" name="userpwd" ></td>
+			</tr>
+			<tr align="right">
+				<td>再次输入密码：</th>
+				<td><input type="password" name="userpwd1" ></td>
+			</tr>
+			<tr>
+				<td>兴趣爱好</td>
+				<td>
+					<input type="checkbox" name="like" value="杀人" checked="checked">
+					<input type="checkbox" name="like" value="杀人">
+					<input type="checkbox" name="like" value="杀人">
+					<input type="checkbox" name="like" value="杀人"><br />
+					<input type="checkbox" name="like" value="杀人">
+					<input type="checkbox" name="like" value="杀人">
+					<input type="checkbox" name="like" value="杀人">
+					<input type="checkbox" name="like" value="杀人" checked="checked">
+
+				</td>
+			</tr>
+			<tr>
+				<td>学历</td>
+				<td>
+					<select name="edu"> 
+						<option value="小学">小学</option>
+						<option value="初中">初中</option>
+						<option value="高中">高中</option>
+						<option value="大学" selected="selected">大学</option>
+						<option value="中专">中专</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>自我介绍</td>
+				<td>
+					<textarea name="intro" cols="50" rows="8">默认文本</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>按钮</td>
+				<td>
+					<input type="submit" name="submit1" value="提交表单">
+					<input type="reset" name="reset1" value="重新填写">
+					<input type="image"  name="image1" src="picture/909ac039003a8e5472aa4cef5698eca8.jpg" width="60">
+					<input type="button" name="button1" onclick="javascript:window.close()" value="关闭窗口">
+				</td>
+				<tr>
+					<td>上传文件</td>
+					<td>
+						<input type="file" name="file1" >
+					</td>
+				</tr>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
